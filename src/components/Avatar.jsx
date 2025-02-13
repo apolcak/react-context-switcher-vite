@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { CombinedContext } from "../App";
+import { CombinedContext } from "../CombinedContext";
 import { FaUserTie, FaUserNurse, FaUserAstronaut } from "react-icons/fa6";
 import "./Avatar.scss";
 

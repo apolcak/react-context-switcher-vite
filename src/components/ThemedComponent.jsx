@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { CombinedContext } from "../App";
+import { CombinedContext } from "../CombinedContext";
 import Button from "./Button";
 import Avatar from "./Avatar";
 import "./ThemedComponent.scss";

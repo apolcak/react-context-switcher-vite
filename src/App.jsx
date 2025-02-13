@@ -1,9 +1,8 @@
-import { createContext, useState } from "react";
+import { useState } from "react";
+import { CombinedContext } from "./CombinedContext";
 import ThemedComponent from "./components/ThemedComponent";
 
 import "./App.scss";
-
-export const CombinedContext = createContext();
 
 const colorModes = ["gy", "bp", "bg"];
 const users = [

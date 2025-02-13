@@ -1,6 +1,6 @@
 // import React from 'react'
 import { useContext } from "react";
-import { CombinedContext } from "../App";
+import { CombinedContext } from "../CombinedContext";
 import "./Button.scss";
 
 const Button = () => {
