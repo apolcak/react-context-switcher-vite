@@ -1,0 +1,29 @@
+.avatar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 6rem;
+	height: 6rem;
+	margin: 0 auto 0.5rem;
+	border-radius: 50%;
+	background-color: var(--avatar-bg);
+	color: var(--avatar-c);
+
+	svg {
+		width: 33%;
+		height: 33%;
+	}
+
+	&--gy {
+		--avatar-bg: var(--gy-c);
+		--avatar-c: var(--gy-bg);
+	}
+	&--bp {
+		--avatar-bg: var(--bp-c);
+		--avatar-c: var(--bp-bg);
+	}
+	&--bg {
+		--avatar-bg: var(--bg-c);
+		--avatar-c: var(--bg-bg);
+	}
+}

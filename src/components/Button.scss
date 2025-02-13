@@ -1,0 +1,23 @@
+.button {
+	background-color: color-mix(in srgb, var(--button-bg) 65%, black 35%);
+	color: var(--button-c);
+	border: 1px solid var(--button-c);
+
+	&:hover {
+		background-color: var(--button-c);
+		color: var(--button-bg);
+	}
+
+	&--gy {
+		--button-bg: var(--gy-bg);
+		--button-c: var(--gy-c);
+	}
+	&--bp {
+		--button-bg: var(--bp-bg);
+		--button-c: var(--bp-c);
+	}
+	&--bg {
+		--button-bg: var(--bg-bg);
+		--button-c: var(--bg-c);
+	}
+}
